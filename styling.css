@@ -266,3 +266,270 @@ body {
 .Artxt {
     border-left: #524234 2px solid;
 }
+
+body.contact_body {
+    background-image: url("bgimgC.jpg");
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #ece4da;
+    border-radius: 36px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.contact-form-container h2 {
+    text-align: center;
+    color: #624e3b;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #524234;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #fff;
+    border: 2px solid #c5b49d;
+    border-radius: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #8a6f55;
+    transform: scale(1.01);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #8a6f55;
+    color: #ece4da;
+    border: none;
+    border-radius: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #624e3b;
+    transform: scale(1.02);
+}
+
+#formStatus {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.success-message {
+    color: #4CAF50;
+    padding: 10px;
+    border-radius: 24px;
+    background-color: #e8f5e9;
+}
+
+.error-message {
+    color: #f44336;
+    padding: 10px;
+    border-radius: 24px;
+    background-color: #ffebee;
+}
+
+body.shop_body {
+    background-image: url(shop_bg.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.Intro_s h1 {
+    margin-top: 200px;
+    margin-left: 900px;
+    font-family: 'Roboto Condensed';
+}
+
+.S_des p {
+    margin-left: 900px;
+}
+
+.S_des a {
+    padding: 10px 90px;
+    text-decoration: none;
+    margin-left: 900px;
+    color: white;
+    background-color:#8a6f55;
+}
+.shop_menu {
+    padding-top: 30px;
+    margin-top: 600px;
+    background-color: white;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.Best_seller {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    background-color:aliceblue;
+    width: 1400px;
+    padding-bottom: 50px;
+
+}
+
+.Best_seller img{
+
+    width: 500px;
+    height: 300px;
+
+}
+
+.Bs_info {
+
+    margin-left: 30px;
+}
+
+.Bs_info h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Bs_info p {
+
+
+}
+
+.item_1 {
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+.item_1 img{
+    width: 300px;
+    height: 300px;
+    align-self: flex-start; 
+    align-self: flex-end;
+    align-self: stretch;  
+}
+
+
+.text-row {
+    display: flex;
+    align-items: center; 
+    gap: 10px;          
+}
+
+.text-row h {
+    margin-left: 110px;
+}
+
+.item_2 {
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+.item_2 img{
+    width: 300px;
+    height: 300px;
+    align-self: flex-start; 
+    align-self: flex-end;
+    align-self: stretch;  
+}
+
+
+.text-row1 {
+    display: flex;
+    align-items: center; 
+    gap: 10px;          
+}
+
+.text-row1 h {
+    margin-left: 110px;
+}
+
+.item_3 {
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+.item_3 img{
+    width: 300px;
+    height: 300px;
+    align-self: flex-start; 
+    align-self: flex-end;
+    align-self: stretch;  
+}
+
+
+.text-row2 {
+    display: flex;
+    align-items: center; 
+    gap: 10px;          
+}
+
+.text-row2 h {
+    margin-left: 110px;
+}
+
+.item_4 {
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+.item_4 img{
+    width: 300px;
+    height: 300px;
+    align-self: flex-start; 
+    align-self: flex-end;
+    align-self: stretch;  
+}
+
+
+.text-row3 {
+    display: flex;
+    align-items: center; 
+    gap: 10px;          
+}
+
+.text-row3 h {
+    margin-left: 110px;
+}
+
+.shop-row {
+    display: flex;
+    flex-direction: row;  
+    gap: 20px;           
+    justify-content: center; 
+}
+
+.shop_items {
+    display: flex;
+    flex-direction: row;  
+    gap: 20px;
+}
