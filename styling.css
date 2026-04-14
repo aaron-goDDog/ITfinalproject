@@ -647,7 +647,7 @@ body.gallery_body {
 
 .services-table-container {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 100px auto;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -726,4 +726,10 @@ body.gallery_body {
         font-weight: bold;
         width: 40%;
     }
+}
+
+.services-table-container h2 {
+
+    font-family: 'Times New Roman', Times, serif;
+
 }
