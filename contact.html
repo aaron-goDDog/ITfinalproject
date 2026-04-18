@@ -8,10 +8,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Momo+Signature&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU+Guides&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styling.css">
+    <script>
+        function validateForm() {
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            if (name === '' || email === '') {
+                alert('Please fill in name and email');
+                return false;
+            }
+            alert('Message sent! (demo)');
+            return true;
+        }
+    </script>
 </head>
 <body class="contact_body">
     <div class="navbar">
-
         <a href="index.html" class="logo" target="_blank"><img src="EagleInt.png"></a>
         <a href="index.html" class="home" target="_blank">Home</a>
         <a href="shop.html" target="_blank">Shop</a>
@@ -19,47 +30,45 @@
         <a href="contact.html" target="_blank">Contact</a>
         <a href="services.html" target="_blank">Services</a>
         <a href="contact.html" class="aboutus" target="_blank" style="margin-left: 250px"><img src="aboutus.png"></a>
-
     </div>
     <div class="contact-form-container">
-    <h2>Get In Touch</h2>
-    <form id="contactForm" class="contact-form">
-        <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" required>
-        </div>
-        
-        <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" required>
-        </div>
-        
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        
-        <button type="submit" class="submit-btn">Send Message</button>
-    </form>
-    <div id="formStatus"></div>
-    
-     <script src="contact.js" defer></script>
-</div>
+        <h2>Get In Touch</h2>
+        <form id="contactForm" class="contact-form" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div id="formStatus"></div>
+    </div>
     
     <footer class="sage-footer">
-    <div class="footer-content">
-        <a href="shop.html">Best Quality</a>
-        <a href="contact.html">Help</a>
-        <a href="services.html">Free Shipping</a>
-        <h3>Eagle Interior Decors</h3>
-        <p><a href="mailto:aarongoddog@gmail.com">Email: aarongoddog@gmail.com</a></p>
-        <p>&copy; 2026 Eagle Interior Decors. All rights reserved.</p>
-    </div>
-</footer>
+        <div class="footer-content">
+            <a href="shop.html">Best Quality</a>
+            <a href="contact.html">Help</a>
+            <a href="services.html">Free Shipping</a>
+            <h3>Eagle Interior Decors</h3>
+            <p><a href="mailto:aarongoddog@gmail.com">Email: aarongoddog@gmail.com</a></p>
+            <p>&copy; 2026 Eagle Interior Decors. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+</html>
 </html>

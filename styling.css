@@ -14,6 +14,7 @@ body {
     min-height: 100vh;
     display: flex; 
 }
+
 .navbar {
     position: absolute;
     top: 10px;
@@ -54,8 +55,6 @@ body {
     display: block;
 }
 
-
-
 .aboutus img {
     width: 20px;
     height: 20px;
@@ -85,10 +84,10 @@ body {
     margin-bottom: 30px;
     margin-top: 0;
 }
+
 .welcomebox p {
     margin-top: 5px; 
     margin-bottom: 0;
-
 }
 
 .home_buttons {
@@ -103,8 +102,6 @@ body {
     padding: 10px 60px;
     color: #ece4da;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-    
 }
 
 .service_btn {
@@ -115,19 +112,17 @@ body {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #8a6f55;
-
 }
 
-.shop_btn:hover{
+.shop_btn:hover {
     transform: scale(1.05); 
     background-color: #625141;
     color: #ece4da;
     transition: 0.3s;
-    
 }
 
 .service_btn:hover {
-    transform: scale(1.05);  /* 5% bigger */
+    transform: scale(1.05);
     background-color: #afa9a6;
     color: #ebe8e6;
     transition: 0.3s;
@@ -183,15 +178,16 @@ body {
     margin-bottom: 50px;
     padding-bottom: 100px;
 }
-.new_arrival {
 
+.new_arrival {
     margin-left: 30px;
     justify-content: center;
     display: flex;
     margin-top: 50px;
     gap: 50px;
 }
-.new_arrival h1{
+
+.new_arrival h1 {
     text-align: left;
     border-left: #524234 solid;
     padding: 40px;
@@ -253,7 +249,7 @@ body {
     color: #524234;
 }
 
-.view_button a:hover{
+.view_button a:hover {
     padding: 10px 50px;
     background-color:#524234;
     margin-left: 630px;
@@ -382,6 +378,7 @@ body.shop_body {
     color: white;
     background-color:#8a6f55;
 }
+
 .shop_menu {
     padding-top: 30px;
     margin-top: 600px;
@@ -389,6 +386,7 @@ body.shop_body {
     padding-bottom: 50px;
     align-items: center;
 }
+
 .Best_seller {
     padding-top: 50px;
     display: flex;
@@ -397,18 +395,14 @@ body.shop_body {
     background-color:aliceblue;
     width: 1400px;
     padding-bottom: 50px;
-
 }
 
-.Best_seller img{
-
+.Best_seller img {
     width: 500px;
     height: 300px;
-
 }
 
 .Bs_info {
-
     margin-left: 30px;
 }
 
@@ -416,25 +410,19 @@ body.shop_body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-.Bs_info p {
-
-
-}
-
 .item_1 {
-
     margin: 20px;
     display: flex;
     flex-direction: column; 
 }
-.item_1 img{
+
+.item_1 img {
     width: 300px;
     height: 300px;
     align-self: flex-start; 
     align-self: flex-end;
     align-self: stretch;  
 }
-
 
 .text-row {
     display: flex;
@@ -447,19 +435,18 @@ body.shop_body {
 }
 
 .item_2 {
-
     margin: 20px;
     display: flex;
     flex-direction: column; 
 }
-.item_2 img{
+
+.item_2 img {
     width: 300px;
     height: 300px;
     align-self: flex-start; 
     align-self: flex-end;
     align-self: stretch;  
 }
-
 
 .text-row1 {
     display: flex;
@@ -472,19 +459,18 @@ body.shop_body {
 }
 
 .item_3 {
-
     margin: 20px;
     display: flex;
     flex-direction: column; 
 }
-.item_3 img{
+
+.item_3 img {
     width: 300px;
     height: 300px;
     align-self: flex-start; 
     align-self: flex-end;
     align-self: stretch;  
 }
-
 
 .text-row2 {
     display: flex;
@@ -497,19 +483,18 @@ body.shop_body {
 }
 
 .item_4 {
-
     margin: 20px;
     display: flex;
     flex-direction: column; 
 }
-.item_4 img{
+
+.item_4 img {
     width: 300px;
     height: 300px;
     align-self: flex-start; 
     align-self: flex-end;
     align-self: stretch;  
 }
-
 
 .text-row3 {
     display: flex;
@@ -669,7 +654,7 @@ body.gallery_body {
 }
 
 .services-table thead {
-    background-color: #8B4513;  /* Wood brown */
+    background-color: #8B4513;
     color: white;
 }
 
@@ -695,7 +680,6 @@ body.gallery_body {
     background-color: #f9f9f9;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .services-table-container {
         padding: 10px;
@@ -729,7 +713,5 @@ body.gallery_body {
 }
 
 .services-table-container h2 {
-
     font-family: 'Times New Roman', Times, serif;
-
 }
